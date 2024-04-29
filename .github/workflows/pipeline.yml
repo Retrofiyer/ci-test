@@ -99,7 +99,7 @@ jobs:
     needs: [test, e2e]
     runs-on: ubuntu-latest
     steps:
-      - echo: "Hola k hace"
+      - echo: "Una acción cambia el mundo"
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
